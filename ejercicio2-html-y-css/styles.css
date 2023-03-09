@@ -5,7 +5,7 @@ div.formulario {
     margin: 0 auto;
     background: linear-gradient(#bb38b7,#5030dd);
     box-shadow: 9px 9px 20px 2px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     font-weight: bold;
 }
 h2 {
