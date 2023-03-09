@@ -3,8 +3,10 @@ div.formulario {
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
-    background: linear-gradient(#d360cf,#6c50eb);
+    background: linear-gradient(#bb38b7,#5030dd);
     box-shadow: 9px 9px 20px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 h2 {
     color: white;
@@ -26,7 +28,21 @@ input.boton{
     padding-right: 15px;
 }
 
- #boton {
+ div.botondiv {
    display: flex;
    justify-content: end;
  }
+
+// mobil
+@media (min-width: 500px) {
+    div.formulario {
+        width: 100%;
+    }
+}
+
+// pantallas grandes
+@media (min-width: 1200px) {
+    div.formulario {
+        width: 300px;
+    }
+}
