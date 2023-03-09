@@ -1,0 +1,32 @@
+div.formulario {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#d360cf,#6c50eb);
+    box-shadow: 9px 9px 20px 2px;
+}
+h2 {
+    color: white;
+}
+
+input.entradas , select.entradas {
+    width: 100%;
+    padding: 7px 0px;
+
+}
+label {
+    color: white;
+}
+
+input.boton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ #boton {
+   display: flex;
+   justify-content: end;
+ }

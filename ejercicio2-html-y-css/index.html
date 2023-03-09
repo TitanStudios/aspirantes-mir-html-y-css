@@ -8,6 +8,36 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="formulario">
+        <form action="Login">
+            <h2>Login</h2>
+         <label>
+             Email<br/>
+            <input type="email" class="entradas" name="email" placeholder="Correo electronico">
+        </label>
+        <Label>
+            <br/>Password<br/>
+            <input type="password" class="entradas" name="password" 
+            id="password" placeholder="********" size="8">
+        </Label>
+        <label>
+            <br/>Género<br/>
+            <select name="genero" class="entradas">
+                <option value="texto inicial">Selecciona un Género</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="no binario">No binario</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </label>
+        <label>
+            <br/>
+            <input type="checkbox" name="Seleccion" value="Aceptar terminos">
+            Acepto los términos. <br/>
+        </label>
+        <br/>
+        <div id="boton"><input class="boton" type="button" value="Ingresar"></div>
+        </form>
+    </div>
 </body>
 </html>
