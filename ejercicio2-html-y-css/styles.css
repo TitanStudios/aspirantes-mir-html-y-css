@@ -33,15 +33,14 @@ input.boton{
    justify-content: end;
  }
 
-// mobil
-@media (min-width: 500px) {
+/* Pantalla de telefonos */
+@media (max-width: 500px) {
     div.formulario {
         width: 100%;
     }
 }
-
-// pantallas grandes
-@media (min-width: 1200px) {
+/* Pantallas grandes */
+@media (min-width: 500px) {
     div.formulario {
         width: 300px;
     }
